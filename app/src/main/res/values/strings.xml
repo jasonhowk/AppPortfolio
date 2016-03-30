@@ -10,10 +10,8 @@
     <string name="xyzReaderProject">XYZ Reader</string>
     <string name="capstoneProject">Capstone: My Own App</string>
     <!-- Button Ids-->
-    <string name="spotifyProjectButtonClicked">spotifyProjectButtonClicked</string>
-    <string name="scoresProjectButtonClicked">scoresProjectButtonClicked</string>
-    <string name="libraryProjectButtonClicked">libraryProjectButtonClicked</string>
-    <string name="bibProjectButtonClicked">bibProjectButtonClicked</string>
-    <string name="xyzReaderProjectButtonClicked">xyzReaderProjectButtonClicked</string>
-    <string name="capstoneProjectButtonClicked">capstoneProjectButtonClicked</string>
+    <string name="projectButtonClicked">projectButtonClicked</string>
+    <!-- Misc-->
+    <string name="toastMessageTemplate">This button will launch my %1$s app!</string>
+    <string name="errorStartingApp">Error attempting to start app.</string>
 </resources>

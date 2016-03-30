@@ -25,7 +25,7 @@
         android:layout_marginTop="34dp"
         android:background="#F08C35"
         android:enabled="true"
-        android:onClick="@string/spotifyProjectButtonClicked"
+        android:onClick="@string/projectButtonClicked"
         android:layout_gravity="center_horizontal"/>
 
     <Button
@@ -35,7 +35,7 @@
         android:id="@+id/scoresProjectButton"
         android:background="#F08C35"
         android:layout_marginTop="10dp"
-        android:onClick="@string/scoresProjectButtonClicked"
+        android:onClick="@string/projectButtonClicked"
         android:layout_gravity="center_horizontal"/>
 
     <Button
@@ -45,7 +45,7 @@
         android:id="@+id/libraryProjectButton"
         android:background="#F08C35"
         android:layout_marginTop="10dp"
-        android:onClick="@string/libraryProjectButtonClicked"
+        android:onClick="@string/projectButtonClicked"
         android:layout_gravity="center_horizontal"/>
 
     <Button
@@ -55,7 +55,7 @@
         android:id="@+id/bibProjectButton"
         android:background="#F08C35"
         android:layout_marginTop="10dp"
-        android:onClick="@string/bibProjectButtonClicked"
+        android:onClick="@string/projectButtonClicked"
         android:layout_gravity="center_horizontal"/>
 
     <Button
@@ -65,18 +65,18 @@
         android:id="@+id/xyzReaderProjectButton"
         android:background="#F08C35"
         android:layout_marginTop="10dp"
-        android:onClick="@string/xyzReaderProjectButtonClicked"
+        android:onClick="@string/projectButtonClicked"
         android:layout_gravity="center_horizontal"/>
 
     <Button
-        android:layout_width="250dp"
+        android:layout_width="@dimen/portfolioButtonWidth"
         android:layout_height="wrap_content"
         android:text="@string/capstoneProject"
         android:id="@+id/capstoneProjectButton"
         android:background="#ff0000"
         android:textColor="#ffffffff"
         android:layout_marginTop="10dp"
-        android:onClick="@string/capstoneProjectButtonClicked"
+        android:onClick="@string/projectButtonClicked"
         android:layout_gravity="center_horizontal"
         />
 
