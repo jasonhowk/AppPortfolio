@@ -8,8 +8,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private final String toastMessageTemplate = "This button will launch my %s app!";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,15 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
     @Override
@@ -48,5 +41,34 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void spotifyProjectButtonClicked(View view) {
+        sendToast(String.format(toastMessageTemplate,"Spotify"));
+    }
+
+    public void scoresProjectButtonClicked(View view) {
+        sendToast(String.format(toastMessageTemplate, "Scores"));
+    }
+
+    public void libraryProjectButtonClicked(View view) {
+        sendToast(String.format(toastMessageTemplate, "Library"));
+    }
+
+    public void bibProjectButtonClicked(View view) {
+        sendToast(String.format(toastMessageTemplate, "Build It Bigger"));
+    }
+
+    public void xyzReaderProjectButtonClicked(View view) {
+        sendToast(String.format(toastMessageTemplate, "XYZ Reader"));
+    }
+
+    public void capstoneProjectButtonClicked(View view) {
+        sendToast(String.format(toastMessageTemplate, "Capstone"));
+    }
+
+    private void sendToast(String message) {
+        Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
+        toast.show();
     }
 }

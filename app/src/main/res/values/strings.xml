@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">AppPortfolio</string>
+    <string name="app_name">My App Portfolio</string>
     <string name="action_settings">Settings</string>
+    <!-- Main fragment labels-->
+    <string name="projectSelectionLabel">My Nanodegree Apps!</string>
+    <string name="spotifyProject">Spotify Streamer</string>
+    <string name="scoresProject">Scores App</string>
+    <string name="libraryProject">Library App</string>
+    <string name="bibProject">Build It Bigger</string>
+    <string name="xyzReaderProject">XYZ Reader</string>
+    <string name="capstoneProject">Capstone: My Own App</string>
+    <!-- Button Ids-->
+    <string name="spotifyProjectButtonClicked">spotifyProjectButtonClicked</string>
+    <string name="scoresProjectButtonClicked">scoresProjectButtonClicked</string>
+    <string name="libraryProjectButtonClicked">libraryProjectButtonClicked</string>
+    <string name="bibProjectButtonClicked">bibProjectButtonClicked</string>
+    <string name="xyzReaderProjectButtonClicked">xyzReaderProjectButtonClicked</string>
+    <string name="capstoneProjectButtonClicked">capstoneProjectButtonClicked</string>
 </resources>
